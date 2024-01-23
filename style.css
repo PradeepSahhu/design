@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Jura&display=swap');
+
+
+*{
+    background-color: #2E1B50;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'jura';
+}
+body{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-basis: 100vh; */
+}
+.first-page div {width: 5px;height: 60px;}
+.v-one, .v-two, .v-three {float: right;}
+
+
+.main-container{
+    /* opacity: 0.5; */
+    height: 70vh;
+    width: 75wh;
+    display: flex;
+   
+    
+}
+div.first-page{
+    /* display: flex; */
+    height: 80%;
+    width: 70%;
+    color: white;
+    text-transform: uppercase;
+
+    /* opacity: 0.5; */
+    margin-top: 10%;
+    margin-left:10%;
+    /* border: 10px solid white; */
+    border: 40px solid transparent; /* Set a transparent border */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+div.nav{
+    /* display:flex; */
+
+}
+.main-container a{
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+
+}
+.mainHeading{
+    margin-top: 30px;
+    font-size: 5rem;
+    padding: 10px;
+
+}
+.mainHeading span{
+    font-size: 10rem;
+    display: inline-block;
+    /* justify-content: center;s
+     */
+     position: relative;
+     left: 5%;
+     
+}
+.mainHeading span span{
+    /* border: 1px solid white; */
+    /* font-weight: bold; */
+    outline: 2px solid #efefef; 
+    
+    /* text-shadow: 1px 1px 2px #fff, -1px -1px 2px #fff, 1px -1px 2px #fff, -1px 1px 2px #fff ; */
+}
+/* .first-page p{
+    font-size: 1rem;
+} */
+.main-container img{
+    float:right;
+    width: 200px;
+    height: 200px;
+}
+button#btn{
+    background-color: #955AFF;
+    border: none;
+  
+
+    /* background:none; */
+    padding: 15px 40px;
+    margin-top: 40px;
+    font-family: 'jura';
+    text-transform: uppercase;
+    /* opacity: 1; */
+    color: white;
+
+
+
+}
+
+
+/* second layout */
+.second-page{
+    display: block;
+    margin-top: 150px;
+    width: 100wh;
+    height: 100vh;
+    color: white;
+    align-items: center;
+}
+.second-pageHeading{
+    position: relative;
+    top: 150px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    /* width: 100%; */
+    
+
+}
+
+.second-pageHeading >span{
+    color: #955AFF;
+}
+.second-pageHeading > span > span{
+    border: 1px solid white;
+}
+
+.second-page article{
+    /* opacity: 0.5; */
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    position: relative;
+    top: 120px;
+    width: 120px;
+    display: inline-block;
+    height: 400px;
+    margin: 5% 3%;
+    border: 40px solid transparent; /* Set a transparent border */
+    box-shadow: 0 0 10px rgba(236, 231, 231, 0.5); 
+   
+}
+.second-page article p{
+    font-size: 25px;
+    font-family: 'jura';
+   
+
+    /* z-index: 0; */
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    margin-top: 40%;
+    padding: 10px;
+    display: inline-block;
+}
+.second-page  article > a{
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    margin-top: 50%;
+    /* padding: 20px; */
+    text-decoration: none;
+    text-transform: none;
+    color: #955AFF;
+}
+article img{
+    margin-top: 50px;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.third-page{
+    position: relative;
+    top:120px;
+    height: 100vh;
+    width: 100wh;
+    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+}
+.third-page > p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+  margin-left: 35%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.third-page article{
+    display: inline-block;
+    margin: 3%;
+    width: 350px;
+    height: 350px;
+    margin-left: 5%;
+
+    
+}
+.third-page article p{
+    font-size: 30px;
+    color: white;
+}
